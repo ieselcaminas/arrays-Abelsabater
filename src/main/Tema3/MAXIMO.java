@@ -22,7 +22,6 @@ public class MAXIMO {
         }
         return max;
     }
-
     public static void main(String[] args) {
         System.out.println("El mes gran es "+Maximo(10));
     }
