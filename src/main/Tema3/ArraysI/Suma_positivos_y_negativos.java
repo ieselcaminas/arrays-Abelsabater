@@ -1,4 +1,4 @@
-package Tema3;
+package Tema3.ArraysI;
 
 public class Suma_positivos_y_negativos {
     public static int sumapositivos(int[] numeros) {

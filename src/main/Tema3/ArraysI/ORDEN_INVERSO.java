@@ -1,4 +1,4 @@
-package Tema3;
+package Tema3.ArraysI;
 
 public class ORDEN_INVERSO {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Tema3;
+package Tema3.ArraysI;
 
 public class Par_Impar {
     public static int pares(int[] numeros) {

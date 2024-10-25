@@ -1,6 +1,5 @@
-package Tema3;
+package Tema3.ArraysI;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class MARCO {

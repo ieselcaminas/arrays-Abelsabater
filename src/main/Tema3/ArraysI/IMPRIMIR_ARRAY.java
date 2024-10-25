@@ -1,4 +1,4 @@
-package Tema3;
+package Tema3.ArraysI;
 
 public class IMPRIMIR_ARRAY {
     public static void main(String[] args) {
