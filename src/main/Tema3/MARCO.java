@@ -23,8 +23,8 @@ public class MARCO {
 
     public static String Marco2(String cadena, int marco1){
             String marco2="* "+cadena;
-            for (int j = 0; j < (marco1-marco2.length()-1); j++) {
-                marco2+=" ";
+            for (int j = cadena.length(); j < marco1+1; j++) {
+                marco2=marco2+" ";
             }
              return marco2+"*";
         }
