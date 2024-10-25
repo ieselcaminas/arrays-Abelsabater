@@ -12,7 +12,7 @@ public class MARCO {
         }
         return ncaractermaximo;
     }
-    public static String Marco1(int caracteres){
+    public static String marco1(int caracteres){
         String marco1="****";
         for (int i = 0; i < caracteres; i++) {
             marco1+="*";
@@ -20,7 +20,7 @@ public class MARCO {
         return marco1;
     }
 
-    public static String Marco2(String cadena, int marco1){
+    public static String marco2(String cadena, int marco1){
             String marco2="* "+cadena;
             for (int j = cadena.length(); j < marco1+1; j++) {
                 marco2=marco2+" ";
@@ -35,10 +35,10 @@ public class MARCO {
             cadena[i]= sc.next();
         }
         int maxim= caracteresmaximo(cadena);
-        System.out.println(Marco1(maxim));
+        System.out.println(marco1(maxim));
         for (int i = 0; i < cadena.length; i++) {
-            System.out.println(Marco2(cadena[i],maxim));
+            System.out.println(marco2(cadena[i],maxim));
         }
-        System.out.println(Marco1(maxim));
+        System.out.println(marco1(maxim));
     }
 }
