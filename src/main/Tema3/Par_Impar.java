@@ -1,7 +1,7 @@
 package Tema3;
 
 public class Par_Impar {
-    public static int Pares(int[] numeros) {
+    public static int pares(int[] numeros) {
         int par = 0;
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i]%2== 0) {
@@ -10,7 +10,7 @@ public class Par_Impar {
         }
         return par;
     }
-    public static int Impares (int[]numeros){
+    public static int impares (int[]numeros){
         int impares = 0;
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i]%2!=0) {
@@ -21,8 +21,8 @@ public class Par_Impar {
     }
     public static void main(String[] args) {
         int[]numeros={1,3,5,8,9,12,22,33,46,2};
-        System.out.println("Son "+Pares(numeros)+" pars");
-        System.out.println("Son "+Impares(numeros)+" impars");
+        System.out.println("Son "+pares(numeros)+" pars");
+        System.out.println("Son "+impares(numeros)+" impars");
 
     }
 }
