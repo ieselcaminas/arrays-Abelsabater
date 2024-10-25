@@ -20,9 +20,9 @@ public class Par_Impar {
         return impares;
     }
     public static void main(String[] args) {
-        int[]numeros={1,2,6,-7,8,-6,5,-7,-9,6};
-        System.out.println(Pares(numeros));
-        System.out.println(Impares(numeros));
+        int[]numeros={1,3,5,8,9,12,22,33,46,2};
+        System.out.println("Son "+Pares(numeros)+" pars");
+        System.out.println("Son "+Impares(numeros)+" impars");
 
     }
 }
