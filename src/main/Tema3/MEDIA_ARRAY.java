@@ -13,8 +13,7 @@ public class MEDIA_ARRAY {
             notes[i]= sc.nextDouble();
             suma+=notes[i];
         }
-        double mitjana= suma/as;
-        return mitjana;
+        return suma/as;
     }
 
     public static void main(String[] args) {
